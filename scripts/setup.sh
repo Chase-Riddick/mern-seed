@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 clear
 echo "MERN-SEED Setup"
 echo ""
