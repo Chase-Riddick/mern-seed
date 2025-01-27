@@ -23,6 +23,7 @@ function Routing() {
         <Route path="/auth/reset/:id" element={<Reset />} />
         <Route path="/auth/reset/:id/:code" element={<Reset />} />
         <Route path="/user/profile" element={<Profile />} />
+        <Route path="/IPA" element={<Profile />} />
         <Route
           path="/error/unauthorized"
           element={<Error status={401} message="Unauthorized request" />}

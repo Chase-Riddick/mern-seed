@@ -4,6 +4,9 @@ services:
     container_name: backend
     build:
       context: ./backend
+    dns:  
+      - 8.8.8.8  
+      - 8.8.4.4 
     ports:
       - '${DEVELOPMENT_BACKEND_PORT}:${DEVELOPMENT_BACKEND_PORT}'
     environment:
@@ -15,6 +18,9 @@ services:
     container_name: frontend
     build:
       context: ./frontend
+    dns:  
+      - 8.8.8.8  
+      - 8.8.4.4
     ports:
       - '${DEVELOPMENT_FRONTEND_PORT}:${DEVELOPMENT_FRONTEND_PORT}'
     volumes:
