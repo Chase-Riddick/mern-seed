@@ -9,6 +9,7 @@ import Recovery from '../../features/auth/recovery'
 import Reset from '../../features/auth/reset'
 import Profile from '../../features/user/profile'
 import Error from '../../features/error'
+import VowelChartContainer from '../../features/ipa/components/VowelChartContainer'
 
 function Routing() {
   return (
@@ -23,7 +24,12 @@ function Routing() {
         <Route path="/auth/reset/:id" element={<Reset />} />
         <Route path="/auth/reset/:id/:code" element={<Reset />} />
         <Route path="/user/profile" element={<Profile />} />
-        <Route path="/IPA" element={<Profile />} />
+        <Route  
+          path="/IPA"  
+          element={  
+            <VowelChartContainer />
+          }  
+        />        
         <Route
           path="/error/unauthorized"
           element={<Error status={401} message="Unauthorized request" />}
