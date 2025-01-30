@@ -1,0 +1,800 @@
+{
+	"letters": [
+	  {
+		"englishLetter": "A",
+		"sounds": [
+		  {
+			"IPA": "æ",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "apple",
+				"IPASpelling": "ˈæpəl",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "cat",
+				"IPASpelling": "kæt",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  },
+		  {
+			"IPA": "eɪ",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "ape",
+				"IPASpelling": "eɪp",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "cake",
+				"IPASpelling": "keɪk",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "B",
+		"sounds": [
+		  {
+			"IPA": "b",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "bat",
+				"IPASpelling": "bæt",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "baby",
+				"IPASpelling": "ˈbeɪbi",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "C",
+		"sounds": [
+		  {
+			"IPA": "k",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "cat",
+				"IPASpelling": "kæt",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "cake",
+				"IPASpelling": "keɪk",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  },
+		  {
+			"IPA": "s",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "city",
+				"IPASpelling": "ˈsɪti",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "face",
+				"IPASpelling": "feɪs",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "D",
+		"sounds": [
+		  {
+			"IPA": "d",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "dog",
+				"IPASpelling": "dɒg",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "dad",
+				"IPASpelling": "dæd",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "E",
+		"sounds": [
+		  {
+			"IPA": "ɛ",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "egg",
+				"IPASpelling": "ɛg",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "bed",
+				"IPASpelling": "bɛd",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  },
+		  {
+			"IPA": "iː",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "eat",
+				"IPASpelling": "iːt",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "bee",
+				"IPASpelling": "biː",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "F",
+		"sounds": [
+		  {
+			"IPA": "f",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "fish",
+				"IPASpelling": "fɪʃ",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "fun",
+				"IPASpelling": "fʌn",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"englishLetter": "G",
+		"sounds": [
+		  {
+			"IPA": "g",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "go",
+				"IPASpelling": "gəʊ",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "game",
+				"IPASpelling": "geɪm",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  },
+		  {
+			"IPA": "dʒ",
+			"audioURL": "",
+			"modelWords": [
+			  {
+				"englishSpelling": "giant",
+				"IPASpelling": "ˈʤaɪənt",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  },
+			  {
+				"englishSpelling": "gym",
+				"IPASpelling": "ʤɪm",
+				"wordAudioURL": "",
+				"wordVideoURL": ""
+			  }
+			]
+		  }
+		]
+	  },
+	  {  
+      "englishLetter": "H",  
+      "sounds": [  
+        {  
+          "IPA": "h",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "hat",  
+              "IPASpelling": "hæt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "happy",  
+              "IPASpelling": "ˈhæpi",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "I",  
+      "sounds": [  
+        {  
+          "IPA": "ɪ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "in",  
+              "IPASpelling": "ɪn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "sit",  
+              "IPASpelling": "sɪt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "aɪ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "ice",  
+              "IPASpelling": "aɪs",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "time",  
+              "IPASpelling": "taɪm",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "J",  
+      "sounds": [  
+        {  
+          "IPA": "dʒ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "jump",  
+              "IPASpelling": "ʤʌmp",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "jelly",  
+              "IPASpelling": "ˈʤɛli",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "K",  
+      "sounds": [  
+        {  
+          "IPA": "k",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "kite",  
+              "IPASpelling": "kaɪt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "king",  
+              "IPASpelling": "kɪŋ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "L",  
+      "sounds": [  
+        {  
+          "IPA": "l",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "lamp",  
+              "IPASpelling": "læmp",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "love",  
+              "IPASpelling": "lʌv",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "M",  
+      "sounds": [  
+        {  
+          "IPA": "m",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "man",  
+              "IPASpelling": "mæn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "milk",  
+              "IPASpelling": "mɪlk",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "N",  
+      "sounds": [  
+        {  
+          "IPA": "n",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "net",  
+              "IPASpelling": "nɛt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "nine",  
+              "IPASpelling": "naɪn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "O",  
+      "sounds": [  
+        {  
+          "IPA": "ɒ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "on",  
+              "IPASpelling": "ɒn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "not",  
+              "IPASpelling": "nɒt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "oʊ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "open",  
+              "IPASpelling": "ˈoʊpən",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "go",  
+              "IPASpelling": "ɡoʊ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "P",  
+      "sounds": [  
+        {  
+          "IPA": "p",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "pen",  
+              "IPASpelling": "pɛn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "pig",  
+              "IPASpelling": "pɪg",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "Q",  
+      "sounds": [  
+        {  
+          "IPA": "kw",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "queen",  
+              "IPASpelling": "kwiːn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "quick",  
+              "IPASpelling": "kwɪk",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },
+	{  
+      "englishLetter": "R",  
+      "sounds": [  
+        {  
+          "IPA": "r",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "red",  
+              "IPASpelling": "rɛd",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "run",  
+              "IPASpelling": "rʌn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "S",  
+      "sounds": [  
+        {  
+          "IPA": "s",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "sun",  
+              "IPASpelling": "sʌn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "sit",  
+              "IPASpelling": "sɪt",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "ʃ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "shoe",  
+              "IPASpelling": "ʃuː",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "fish",  
+              "IPASpelling": "fɪʃ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "T",  
+      "sounds": [  
+        {  
+          "IPA": "t",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "top",  
+              "IPASpelling": "tɒp",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "ten",  
+              "IPASpelling": "tɛn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "ʧ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "chair",  
+              "IPASpelling": "ʧɛr",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "watch",  
+              "IPASpelling": "wɒʧ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "U",  
+      "sounds": [  
+        {  
+          "IPA": "ʌ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "up",  
+              "IPASpelling": "ʌp",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "cup",  
+              "IPASpelling": "kʌp",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "uː",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "use",  
+              "IPASpelling": "juːz",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "blue",  
+              "IPASpelling": "bluː",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "V",  
+      "sounds": [  
+        {  
+          "IPA": "v",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "van",  
+              "IPASpelling": "væn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "love",  
+              "IPASpelling": "lʌv",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "W",  
+      "sounds": [  
+        {  
+          "IPA": "w",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "win",  
+              "IPASpelling": "wɪn",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "water",  
+              "IPASpelling": "ˈwɔːtər",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "X",  
+      "sounds": [  
+        {  
+          "IPA": "ks",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "box",  
+              "IPASpelling": "bɒks",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "fox",  
+              "IPASpelling": "fɒks",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "gz",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "exam",  
+              "IPASpelling": "ɪgˈzæm",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "example",  
+              "IPASpelling": "ɪgˈzɑːmpl",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "Y",  
+      "sounds": [  
+        {  
+          "IPA": "j",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "yes",  
+              "IPASpelling": "jɛs",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "yellow",  
+              "IPASpelling": "ˈjɛloʊ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    },  
+    {  
+      "englishLetter": "Z",  
+      "sounds": [  
+        {  
+          "IPA": "z",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "zoo",  
+              "IPASpelling": "zuː",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "zero",  
+              "IPASpelling": "ˈzɪəroʊ",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        },  
+        {  
+          "IPA": "ʒ",  
+          "audioURL": "",  
+          "modelWords": [  
+            {  
+              "englishSpelling": "measure",  
+              "IPASpelling": "ˈmɛʒər",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            },  
+            {  
+              "englishSpelling": "treasure",  
+              "IPASpelling": "ˈtrɛʒər",  
+              "wordAudioURL": "",  
+              "wordVideoURL": ""  
+            }  
+          ]  
+        }  
+      ]  
+    }
+	]
+  }
