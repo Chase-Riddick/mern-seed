@@ -1,4 +1,4 @@
-import React, { useState } from "react";  
+import React, { useState, useEffect } from "react";  
 import { Box } from "@mui/material"
 import SearchBar from "./SearchBar";
 import LetterTabs from "./LetterTabs";
@@ -13,6 +13,7 @@ const IPAAppContainer: React.FC = () => {
     const [ selectedIPA, setSelectedIPA ] = useState<string>("");
     const [ ipaSounds, setIPASounds ] = useState<string[]>([]);
     const [ currentIPAData, setCurrentIPAData ] = useState<{[key: string]: any}>({});
+    const [ currentLetterData, setCurrentLetterData ] = useState<{[key: string]: any}>({});
     const [ lettersData ] = useState<{[key: string]: any}>(data);
     
     const handleSearch = (query: string) => {
@@ -27,6 +28,25 @@ const IPAAppContainer: React.FC = () => {
     const handleSelectIPA = (ipa: string) => {
         setSelectedIPA(ipa);
     };
+
+    useEffect(() => {  
+        const currentLetterDataTemp = lettersData.letters.find(  
+            (letter: any) => letter.englishLetter === selectedLetter  
+        );  
+        console.log(currentLetterDataTemp); // Logs the correct data  
+
+        if (currentLetterDataTemp) {  
+            setCurrentLetterData(currentLetterDataTemp);  
+
+            // Update IPA sounds for the selected letter  
+            const ipaSoundsTemp = currentLetterDataTemp.sounds.map((sound: any) => sound.IPA);  
+            setIPASounds(ipaSoundsTemp);  
+        } else {  
+            // Reset states if no letter matches  
+            setCurrentLetterData({});  
+            setIPASounds([]);  
+        }  
+    }, [selectedLetter, lettersData]);  
 
     // const currentLetterData = lettersData.letters.find((letter: any) => letter.englishLetter === selectedLetter);
 
@@ -55,7 +75,7 @@ const IPAAppContainer: React.FC = () => {
             onSelectLetter={handleSelectLetter}  
             />
             <SelectedLetterHeader letter={selectedLetter} />
-            <div>{JSON.stringify(ipaSounds, null, 2)}</div>
+            <pre>{JSON.stringify(currentLetterData, null, 2)}</pre>
             <IPATabs
                 ipaSounds={ipaSounds}
                 selectedIPA={selectedIPA}

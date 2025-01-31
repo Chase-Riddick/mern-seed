@@ -13,14 +13,14 @@ import Navigation from './common/navigation/navigation'
 // import Background from './common/background/background'
 import Routing from './core/routing/routing'
 import Notification from './common/notification/notification'
-import useSocket from './core/hooks/useSocket'
+// import useSocket from './core/hooks/useSocket'
 
 function App() {
   const dispatch = useAppDispatch()
   const { apiUrl, theme } = useSelector((state: RootState) => state.home)
 
   const { getApiUrl } = useConfig()
-  const { socket } = useSocket()
+  // const { socket } = useSocket()
 
   // Send cookies with every request
   axios.defaults.withCredentials = true
@@ -45,31 +45,31 @@ function App() {
     getUser()
 
     // Listen for socket.io connection messages
-    socket.on('connect', connectListener)
-    socket.on('disconnected', disconnectListener)
+    // socket.on('connect', connectListener)
+    // socket.on('disconnected', disconnectListener)
 
     // The socket.io the listeners must be removed
     // In order to prevent multiple event registrations
     // https://socket.io/how-to/use-with-react-hooks
     return () => {
-      socket.off('connect', connectListener)
-      socket.off('disconnected', disconnectListener)
+      // socket.off('connect', connectListener)
+      // socket.off('disconnected', disconnectListener)
     }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   /**
    * Socket.io connected event
    */
-  const connectListener = () => {
-    console.info('[SOCKET] Connected')
-  }
+  // const connectListener = () => {
+  //   console.info('[SOCKET] Connected')
+  // }
 
   /**
    * Socket.io disconnected event
    */
-  const disconnectListener = () => {
-    console.info('[SOCKET] Disconnected')
-  }
+  // const disconnectListener = () => {
+  //   console.info('[SOCKET] Disconnected')
+  // }
 
   /**
    * Get user data
@@ -86,6 +86,7 @@ function App() {
   }
 
   return (
+    // <div className={`app-container ${theme}`}>
     <AppContainer>
       <Navigation />
         <Routing />
