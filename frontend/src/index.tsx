@@ -1,10 +1,13 @@
-import './index.scss'
+// import './index.scss'
 import { Provider } from 'react-redux'
 import { store, persistor } from './core/store/store'
 import reportWebVitals from './reportWebVitals'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { PersistGate } from 'redux-persist/integration/react'
+import { ThemeProvider } from '@mui/material/styles';  
+import CssBaseline from '@mui/material/CssBaseline';  
+import theme from '../src/core/themes/themses';  
 import App from './app'
 
 // Routing based on
@@ -20,7 +23,10 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
+      <ThemeProvider theme={theme}>
+      <CssBaseline />   
         <App />
+        </ThemeProvider>
       </PersistGate>
     </Provider>
   </BrowserRouter>

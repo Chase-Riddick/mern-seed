@@ -1,4 +1,4 @@
-import './app.scss'
+// import './app.scss'
 import { useEffect } from 'react'
 import { RootState } from './core/store/store'
 import { useAppDispatch } from './core/hooks/useStore'
@@ -8,8 +8,9 @@ import { authSlice } from './features/auth/auth'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 import useConfig from './core/hooks/useConfig'
+import AppContainer from './common/container/AppContainer'
 import Navigation from './common/navigation/navigation'
-import Background from './common/background/background'
+// import Background from './common/background/background'
 import Routing from './core/routing/routing'
 import Notification from './common/notification/notification'
 import useSocket from './core/hooks/useSocket'
@@ -85,14 +86,11 @@ function App() {
   }
 
   return (
-    <div className={`app-container ${theme}`}>
-      <div className="app-content">
-        <Background />
-        <Navigation />
+    <AppContainer>
+      <Navigation />
         <Routing />
         <Notification />
-      </div>
-    </div>
+    </AppContainer>
   )
 }
 

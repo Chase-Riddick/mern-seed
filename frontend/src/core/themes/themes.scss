@@ -40,7 +40,7 @@ $hover-transition-slow: all 0.3s ease;
 }
 
 @mixin backdrop-filter {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
 }
 
 $themes: (

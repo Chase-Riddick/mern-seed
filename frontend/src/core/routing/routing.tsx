@@ -10,6 +10,8 @@ import Reset from '../../features/auth/reset'
 import Profile from '../../features/user/profile'
 import Error from '../../features/error'
 import VowelChartContainer from '../../features/ipa/components/VowelChartContainer'
+import JsonDisplay from '../../features/ipa/components/JsonDisplay'
+import IPAAppContainer from '../../features/ipa/components/IPAAppContainer'
 
 function Routing() {
   return (
@@ -24,12 +26,25 @@ function Routing() {
         <Route path="/auth/reset/:id" element={<Reset />} />
         <Route path="/auth/reset/:id/:code" element={<Reset />} />
         <Route path="/user/profile" element={<Profile />} />
+        <Route path="/user/profile" element={<Profile />} />
         <Route  
-          path="/IPA"  
+          path="/ipa"  
           element={  
             <VowelChartContainer />
           }  
-        />        
+        />
+        <Route  
+          path="/ipa/jsondata"  
+          element={  
+            <JsonDisplay />
+          }  
+        />
+        <Route  
+          path="/ipa/ipaapp"  
+          element={  
+            <IPAAppContainer/>
+          }   
+        />      
         <Route
           path="/error/unauthorized"
           element={<Error status={401} message="Unauthorized request" />}
