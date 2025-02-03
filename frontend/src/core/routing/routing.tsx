@@ -15,7 +15,19 @@ import IPAAppContainer from '../../features/ipa/components/IPAAppContainer'
 
 function Routing() {
   return (
-    <div>
+    <div 
+      style={{  
+        marginTop: "50px",
+        display: "flex", 
+        width: "100%",
+        height: "100vh",
+        justifyContent: "center", // Center horizontally  
+        alignItems: "center", // Center vertically  
+        minHeight: "100vh", // Full height of the viewport  
+        backgroundColor: "#f5f5f5", // Optional: Add a background color 
+        
+      }}  
+    >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/auth/login" element={<Login />} />
@@ -28,15 +40,9 @@ function Routing() {
         <Route path="/user/profile" element={<Profile />} />
         <Route path="/user/profile" element={<Profile />} />
         <Route  
-          path="/ipa"  
+          path="/ipa/vowelchart"  
           element={  
             <VowelChartContainer />
-          }  
-        />
-        <Route  
-          path="/ipa/jsondata"  
-          element={  
-            <JsonDisplay />
           }  
         />
         <Route  

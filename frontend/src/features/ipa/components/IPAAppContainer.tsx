@@ -1,91 +1,75 @@
-import React, { useState, useEffect } from "react";  
-import { Box } from "@mui/material"
-import SearchBar from "./SearchBar";
-import LetterTabs from "./LetterTabs";
-import SelectedLetterHeader from "./SelectedLetterHeader";
-import IPATabs from "./IPATabs";
-import letterData from "../data/letterData.json";
+import React, { useState } from "react";  
+import { Box, BottomNavigation, BottomNavigationAction } from "@mui/material";  
+import VowelChartContainer from "./VowelChartContainer";  
+import LetterReference from "./LetterReference";
+import InfoIcon from "@mui/icons-material/Info"; // About icon  
+import BarChartIcon from "@mui/icons-material/BarChart"; // Vowel Chart icon  
+import BookIcon from "@mui/icons-material/Book"; // Letter Reference icon  
 
-const data = JSON.parse(JSON.stringify(letterData));
+const IPAAppContainer: React.FC = () => {  
+  // State for navigation  
+  const [currentView, setCurrentView] = useState<string>("letter-reference");  
 
-const IPAAppContainer: React.FC = () => {
-    const [ selectedLetter, setSelectedLetter ] = useState<string>("");
-    const [ selectedIPA, setSelectedIPA ] = useState<string>("");
-    const [ ipaSounds, setIPASounds ] = useState<string[]>([]);
-    const [ currentIPAData, setCurrentIPAData ] = useState<{[key: string]: any}>({});
-    const [ currentLetterData, setCurrentLetterData ] = useState<{[key: string]: any}>({});
-    const [ lettersData ] = useState<{[key: string]: any}>(data);
-    
-    const handleSearch = (query: string) => {
-        setSelectedLetter(query);
-    };
+  return (  
+    <Box  
+      sx={{  
+        margin: "10px",  
+        padding: "10px",  
+        width: "100%", 
+        height: "100vh", 
+        display: "flex",  
+        flexDirection: "column",  
+        maxWidth: "700px",  
+        minWidth: "400px",  
+        backgroundColor: "#fff",  
+        boxShadow: 3,  
+        borderRadius: 2,  
+        overflow: "hidden",  
+      }}  
+    >  
+      {/* Render the current view */}  
+      {currentView === "letter-reference" && <LetterReference />}  
+      {currentView === "vowel-chart" && <VowelChartContainer />}  
+      {currentView === "about" && (  
+        <Box sx={{ textAlign: "center", padding: "20px" }}>  
+          <h2>About the IPA App</h2>  
+          <p>This app helps users explore the International Phonetic Alphabet (IPA).</p>  
+        </Box>  
+      )}  
 
-    const handleSelectLetter = (letter: string) => {
-        setSelectedLetter(letter);
-        setSelectedIPA("");
-    };
-
-    const handleSelectIPA = (ipa: string) => {
-        setSelectedIPA(ipa);
-    };
-
-    useEffect(() => {  
-        const currentLetterDataTemp = lettersData.letters.find(  
-            (letter: any) => letter.englishLetter === selectedLetter  
-        );  
-        console.log(currentLetterDataTemp); // Logs the correct data  
-
-        if (currentLetterDataTemp) {  
-            setCurrentLetterData(currentLetterDataTemp);  
-
-            // Update IPA sounds for the selected letter  
-            const ipaSoundsTemp = currentLetterDataTemp.sounds.map((sound: any) => sound.IPA);  
-            setIPASounds(ipaSoundsTemp);  
-        } else {  
-            // Reset states if no letter matches  
-            setCurrentLetterData({});  
-            setIPASounds([]);  
-        }  
-    }, [selectedLetter, lettersData]);  
-
-    // const currentLetterData = lettersData.letters.find((letter: any) => letter.englishLetter === selectedLetter);
-
-    // const ipaSounds = currentLetterData?.sounds.map((sound: any) => sound.ipa) || [];
-
-    // const currentIPAData = currentLetterData?.sounds.find((sound: any) => sound.ipa === selectedIPA);
-
-    return (
-        <Box
-        sx={{
-            // display: "flex",
-            // flexDirection: "column",
-            // minHeight: "100vh",
-            width: "100%",
-            maxWidth: "700px",
-            minWidth: "400px",
-            backgroundColor: "#fff",
-            boxShadow: 3,
-            borderRadius: 2,
-            overflow: "hidden",
-        }}
-        >
-            <SearchBar onSearch={handleSearch} />
-            <LetterTabs
-            selectedLetter={selectedLetter}  
-            onSelectLetter={handleSelectLetter}  
-            />
-            <SelectedLetterHeader letter={selectedLetter} />
-            <pre>{JSON.stringify(currentLetterData, null, 2)}</pre>
-            <IPATabs
-                ipaSounds={ipaSounds}
-                selectedIPA={selectedIPA}
-                onSelectIPA={handleSelectIPA}
-            />
-
-
-            {/* {children} */}
-        </Box>
-    );
-}
+      {/* Bottom Navigation */}  
+      <BottomNavigation  
+        value={currentView}  
+        onChange={(event, newValue) => setCurrentView(newValue)}  
+        sx={{  
+        position: "fixed",  
+        //   bottom: 0,  
+        //   left: 0,  
+        //   right: 0,  
+          width: "100%",
+          bottom: 0,
+          backgroundColor: "#fff",  
+          boxShadow: 3,  
+        }}  
+      >  
+        <BottomNavigationAction  
+          label="Letter Reference"  
+          value="letter-reference"  
+          icon={<InfoIcon />}  
+        />  
+        <BottomNavigationAction  
+          label="Vowel Chart"  
+          value="vowel-chart"  
+          icon={<BarChartIcon />}  
+        />  
+        <BottomNavigationAction  
+          label="About"  
+          value="about"  
+          icon={<BookIcon />}  
+        />  
+      </BottomNavigation>  
+    </Box>  
+  );  
+};  
 
 export default IPAAppContainer;
