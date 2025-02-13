@@ -20,7 +20,7 @@ const PlayAndVideoSection: React.FC<PlayAndVideoSectionProps> = ({
       </Box>  
       <Box sx={{ flex: 1 }}>  
         <video  
-          src={"/videos/g.mp4"}  
+          src={videoURL}  
           controls  
           style={{ width: "100%", borderRadius: 8 }}  
         />  
