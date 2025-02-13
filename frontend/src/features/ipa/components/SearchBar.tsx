@@ -16,7 +16,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   };  
 
   return (  
-    <TextField  
+    <TextField
       fullWidth  
       variant="outlined"  
       placeholder="Search letters..."  
@@ -28,7 +28,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
           </InputAdornment>  
         ),  
       }}  
-      sx={{ margin: 2 }}  
+      sx={{ margin: 0 }}  
     />  
   );  
 };  

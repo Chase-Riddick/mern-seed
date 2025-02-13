@@ -16,14 +16,16 @@ import IPAAppContainer from '../../features/ipa/components/IPAAppContainer'
 function Routing() {
   return (
     <div 
-      style={{  
-        marginTop: "50px",
-        display: "flex", 
+      style={{ 
+        flex: 1,  
+        display: "flex",
         width: "100%",
-        height: "100vh",
+        // height: "100%",
+        overflowY: "hidden",
         justifyContent: "center", // Center horizontally  
         alignItems: "center", // Center vertically  
-        minHeight: "100vh", // Full height of the viewport  
+        margin: "0",
+        padding: "10px",
         backgroundColor: "#f5f5f5", // Optional: Add a background color 
         
       }}  

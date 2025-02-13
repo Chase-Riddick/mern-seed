@@ -6,7 +6,11 @@ import SelectedLetterHeader from "./SelectedLetterHeader";
 import IPATabs from "./IPATabs";  
 import PlayAndVideoSection from "./PlayAndVideoSection";  
 import ModelWordsSection from "./ModelWordSection";  
-import letterData from "../data/letterData.json";  
+import letterData from "../data/letterData.json"; 
+import letterDataAlt from "../data/soundData.json";
+
+const dataTemp = JSON.parse(JSON.stringify(letterDataAlt));
+const lettersToIPA = dataTemp.lettersToIPA;
 
 const data = JSON.parse(JSON.stringify(letterData));  
 

@@ -13,10 +13,12 @@ const IPAAppContainer: React.FC = () => {
   return (  
     <Box  
       sx={{  
-        margin: "10px",  
-        padding: "10px",  
-        width: "100%", 
-        height: "100vh", 
+        margin: "10px 10px 10px 10px !important",  
+        padding: "0",  
+        width: "100%",
+        flex: 1,
+        height: "100%", 
+        // height: "100vh", 
         display: "flex",  
         flexDirection: "column",  
         maxWidth: "700px",  
@@ -27,6 +29,13 @@ const IPAAppContainer: React.FC = () => {
         overflow: "hidden",  
       }}  
     >  
+    <Box  
+        sx={{  
+          flex: 1, // Dynamically takes up remaining space  
+          overflowY: "auto", // Enables scrolling for overflowing content  
+          padding: 2,  
+        }}  
+      >  
       {/* Render the current view */}  
       {currentView === "letter-reference" && <LetterReference />}  
       {currentView === "vowel-chart" && <VowelChartContainer />}  
@@ -36,13 +45,15 @@ const IPAAppContainer: React.FC = () => {
           <p>This app helps users explore the International Phonetic Alphabet (IPA).</p>  
         </Box>  
       )}  
+      </Box> 
 
       {/* Bottom Navigation */}  
       <BottomNavigation  
         value={currentView}  
         onChange={(event, newValue) => setCurrentView(newValue)}  
         sx={{  
-        position: "fixed",  
+            marginTop: "auto",
+        // position: "fixed",  
         //   bottom: 0,  
         //   left: 0,  
         //   right: 0,  

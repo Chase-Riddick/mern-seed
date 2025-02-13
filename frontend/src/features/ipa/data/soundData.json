@@ -1,0 +1,1628 @@
+{  
+    "lettersToIPA": {
+        "A": ["æ", "eɪ"],
+        "B": ["b"],
+        "C": ["k", "s", "tʃ"],
+        "D": ["d"],
+        "E": ["ɛ", "iː", "e"],
+        "F": ["f"],
+        "G": ["g", "dʒ"],
+        "H": ["h"],
+        "I": ["ɪ", "aɪ"],
+        "J": ["dʒ"],
+        "K": ["k"],
+        "L": ["l"],
+        "M": ["m"],
+        "N": ["n", "ŋ"],
+        "O": ["ɒ", "oʊ", "ɔː"],
+        "P": ["p"],
+        "Q": ["k", "kw"],
+        "R": ["r"],
+        "S": ["s", "ʃ", "z"],
+        "T": ["t", "tʃ", "θ"],
+        "U": ["ʌ", "juː", "uː"],
+        "V": ["v"],
+        "W": ["w", "ʍ"],
+        "X": ["ks", "gz"],
+        "Y": ["j", "aɪ"],
+        "Z": ["z", "ʒ"]
+    },
+  "IPASounds": {  
+    "æ": {  
+      "ipaSymbol": "æ",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Short A",  
+      "descriptionSecondary": "open front unrounded vowel",  
+      "descriptionPrimaryChinese": "短A",  
+      "descriptionSecondaryChinese": "开放前不圆唇元音",  
+      "audioMale": "/assets/audio/æ_male.mp3",  
+      "audioFemale": "/assets/audio/æ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/æ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/4_vowel_monophthong_open_front_unrounded_diagram.png",  
+      "vocalTractMRI": "/assets/mri/4_vowel_monophthong_open_front_unrounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "cat",  
+          "IPASpelling": "kæt",  
+          "translationsChinese": ["猫"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/cat_male.mp3",  
+          "audioFemale": "/assets/audio/words/cat_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "bat",  
+          "IPASpelling": "bæt",  
+          "translationsChinese": ["蝙蝠"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/bat_male.mp3",  
+          "audioFemale": "/assets/audio/words/bat_female.mp3"  
+        }  
+      ]  
+    },  
+    "eɪ": {  
+      "ipaSymbol": "eɪ",  
+      "type": "vowel",  
+      "subtype": "diphthong",  
+      "descriptionPrimary": "Long A",  
+      "descriptionSecondary": "front close to front mid vowel",  
+      "descriptionPrimaryChinese": "长A",  
+      "descriptionSecondaryChinese": "前闭到前中元音",  
+      "audioMale": "/assets/audio/eɪ_male.mp3",  
+      "audioFemale": "/assets/audio/eɪ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/eɪ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/13_vowel_diphthong_front_close_to_front_mid_diagram.gif",  
+      "vocalTractMRI": "/assets/mri/13_vowel_diphthong_front_close_to_front_mid_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "cake",  
+          "IPASpelling": "keɪk",  
+          "translationsChinese": ["蛋糕"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/cake_male.mp3",  
+          "audioFemale": "/assets/audio/words/cake_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "day",  
+          "IPASpelling": "deɪ",  
+          "translationsChinese": ["天"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/day_male.mp3",  
+          "audioFemale": "/assets/audio/words/day_female.mp3"  
+        }  
+      ]  
+    },  
+    "iː": {  
+      "ipaSymbol": "iː",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Long E",  
+      "descriptionSecondary": "close front unrounded vowel",  
+      "descriptionPrimaryChinese": "长E",  
+      "descriptionSecondaryChinese": "闭前不圆唇元音",  
+      "audioMale": "/assets/audio/iː_male.mp3",  
+      "audioFemale": "/assets/audio/iː_female.mp3",  
+      "audioDefaultExample": "/assets/audio/iː_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/1_vowel_monophthong_close_front_unrounded.png",  
+      "vocalTractMRI": "/assets/mri/1_vowel_monophthong_close_front_unrounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "see",  
+          "IPASpelling": "siː",  
+          "translationsChinese": ["看见"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/see_male.mp3",  
+          "audioFemale": "/assets/audio/words/see_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "tree",  
+          "IPASpelling": "triː",  
+          "translationsChinese": ["树"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/tree_male.mp3",  
+          "audioFemale": "/assets/audio/words/tree_female.mp3"  
+        }  
+      ]  
+    },  
+    "uː": {  
+      "ipaSymbol": "uː",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Long U",  
+      "descriptionSecondary": "close back rounded vowel",  
+      "descriptionPrimaryChinese": "长U",  
+      "descriptionSecondaryChinese": "闭后圆唇元音",  
+      "audioMale": "/assets/audio/uː_male.mp3",  
+      "audioFemale": "/assets/audio/uː_female.mp3",  
+      "audioDefaultExample": "/assets/audio/uː_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/5_vowel_monophthong_close_back_rounded_diagram.png",  
+      "vocalTractMRI": "/assets/mri/5_vowel_monophthong_close_back_rounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "blue",  
+          "IPASpelling": "bluː",  
+          "translationsChinese": ["蓝色"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/blue_male.mp3",  
+          "audioFemale": "/assets/audio/words/blue_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "shoe",  
+          "IPASpelling": "ʃuː",  
+          "translationsChinese": ["鞋"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/shoe_male.mp3",  
+          "audioFemale": "/assets/audio/words/shoe_female.mp3"  
+        }  
+      ]  
+    },
+    "ɪ": {  
+        "ipaSymbol": "ɪ",  
+        "type": "vowel",  
+        "subtype": "monophthong",  
+        "descriptionPrimary": "Short I",  
+        "descriptionSecondary": "near-close near-front unrounded vowel",  
+        "descriptionPrimaryChinese": "短I",  
+        "descriptionSecondaryChinese": "近闭近前不圆唇元音",  
+        "audioMale": "/assets/audio/ɪ_male.mp3",  
+        "audioFemale": "/assets/audio/ɪ_female.mp3",  
+        "audioDefaultExample": "/assets/audio/ɪ_example.mp3",  
+        "vocalTractDiagram": "/assets/diagrams/2_vowel_monophthong_close_mid_front_unrounded_float_diagram.png",  
+        "vocalTractMRI": "/assets/mri/2_vowel_monophthong_close_mid_front_unrounded_float_MRI.mp4",  
+        "exampleWords": [  
+          {  
+            "englishSpelling": "sit",  
+            "IPASpelling": "sɪt",  
+            "translationsChinese": ["坐"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/sit_male.mp3",  
+            "audioFemale": "/assets/audio/words/sit_female.mp3"  
+          },  
+          {  
+            "englishSpelling": "bit",  
+            "IPASpelling": "bɪt",  
+            "translationsChinese": ["一点"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/bit_male.mp3",  
+            "audioFemale": "/assets/audio/words/bit_female.mp3"  
+          }  
+        ]  
+      },  
+      "ɛ": {  
+        "ipaSymbol": "ɛ",  
+        "type": "vowel",  
+        "subtype": "monophthong",  
+        "descriptionPrimary": "Short E",  
+        "descriptionSecondary": "open-mid front unrounded vowel",  
+        "descriptionPrimaryChinese": "短E",  
+        "descriptionSecondaryChinese": "开中前不圆唇元音",  
+        "audioMale": "/assets/audio/ɛ_male.mp3",  
+        "audioFemale": "/assets/audio/ɛ_female.mp3",  
+        "audioDefaultExample": "/assets/audio/ɛ_example.mp3",  
+        "vocalTractDiagram": "/assets/diagrams/3_vowel_monophthong_open_mid_front_unrounded_diagram.png",  
+        "vocalTractMRI": "/assets/mri/3_vowel_monophthong_open_mid_front_unrounded_MRI.mp4",  
+        "exampleWords": [  
+          {  
+            "englishSpelling": "bed",  
+            "IPASpelling": "bɛd",  
+            "translationsChinese": ["床"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/bed_male.mp3",  
+            "audioFemale": "/assets/audio/words/bed_female.mp3"  
+          },  
+          {  
+            "englishSpelling": "red",  
+            "IPASpelling": "rɛd",  
+            "translationsChinese": ["红色"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/red_male.mp3",  
+            "audioFemale": "/assets/audio/words/red_female.mp3"  
+          }  
+        ]  
+      },  
+      "ɑː": {  
+        "ipaSymbol": "ɑː",  
+        "type": "vowel",  
+        "subtype": "monophthong",  
+        "descriptionPrimary": "Open A",  
+        "descriptionSecondary": "open back unrounded vowel",  
+        "descriptionPrimaryChinese": "开放A",  
+        "descriptionSecondaryChinese": "开放后不圆唇元音",  
+        "audioMale": "/assets/audio/ɑː_male.mp3",  
+        "audioFemale": "/assets/audio/ɑː_female.mp3",  
+        "audioDefaultExample": "/assets/audio/ɑː_example.mp3",  
+        "vocalTractDiagram": "/assets/diagrams/9_vowel_monophthong_open_back_unrounded_diagram.png",  
+        "vocalTractMRI": "/assets/mri/9_vowel_monophthong_open_back_unrounded_MRI.mp4",  
+        "exampleWords": [  
+          {  
+            "englishSpelling": "car",  
+            "IPASpelling": "kɑːr",  
+            "translationsChinese": ["车"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/car_male.mp3",  
+            "audioFemale": "/assets/audio/words/car_female.mp3"  
+          },  
+          {  
+            "englishSpelling": "star",  
+            "IPASpelling": "stɑːr",  
+            "translationsChinese": ["星星"],  
+            "highlightMethod": {  
+              "englishSpelling": [3],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/star_male.mp3",  
+            "audioFemale": "/assets/audio/words/star_female.mp3"  
+          }  
+        ]  
+      },  
+      "aɪ": {  
+        "ipaSymbol": "aɪ",  
+        "type": "vowel",  
+        "subtype": "diphthong",  
+        "descriptionPrimary": "Long I",  
+        "descriptionSecondary": "front open to front close vowel",  
+        "descriptionPrimaryChinese": "长I",  
+        "descriptionSecondaryChinese": "前开到前闭元音",  
+        "audioMale": "/assets/audio/aɪ_male.mp3",  
+        "audioFemale": "/assets/audio/aɪ_female.mp3",  
+        "audioDefaultExample": "/assets/audio/aɪ_example.mp3",  
+        "vocalTractDiagram": "/assets/diagrams/11_vowel_diphthong_front_open_to_front_close_diagram.gif",  
+        "vocalTractMRI": "/assets/mri/11_vowel_diphthong_front_open_to_front_close_MRI.mp4",  
+        "exampleWords": [  
+          {  
+            "englishSpelling": "time",  
+            "IPASpelling": "taɪm",  
+            "translationsChinese": ["时间"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/time_male.mp3",  
+            "audioFemale": "/assets/audio/words/time_female.mp3"  
+          },  
+          {  
+            "englishSpelling": "fly",  
+            "IPASpelling": "flaɪ",  
+            "translationsChinese": ["飞"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/fly_male.mp3",  
+            "audioFemale": "/assets/audio/words/fly_female.mp3"  
+          }  
+        ]  
+      },  
+      "oʊ": {  
+        "ipaSymbol": "oʊ",  
+        "type": "vowel",  
+        "subtype": "diphthong",  
+        "descriptionPrimary": "Long O",  
+        "descriptionSecondary": "back close to back mid vowel",  
+        "descriptionPrimaryChinese": "长O",  
+        "descriptionSecondaryChinese": "后闭到后中元音",  
+        "audioMale": "/assets/audio/oʊ_male.mp3",  
+        "audioFemale": "/assets/audio/oʊ_female.mp3",  
+        "audioDefaultExample": "/assets/audio/oʊ_example.mp3",  
+        "vocalTractDiagram": "/assets/diagrams/16_vowel_diphthong_back_close_to_back_mid_diagram.gif",  
+        "vocalTractMRI": "/assets/mri/16_vowel_diphthong_back_close_to_back_mid_MRI.mp4",  
+        "exampleWords": [  
+          {  
+            "englishSpelling": "go",  
+            "IPASpelling": "ɡoʊ",  
+            "translationsChinese": ["去"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/go_male.mp3",  
+            "audioFemale": "/assets/audio/words/go_female.mp3"  
+          },  
+          {  
+            "englishSpelling": "low",  
+            "IPASpelling": "loʊ",  
+            "translationsChinese": ["低"],  
+            "highlightMethod": {  
+              "englishSpelling": [2],  
+              "IPASpelling": [2]  
+            },  
+            "audioMale": "/assets/audio/words/low_male.mp3",  
+            "audioFemale": "/assets/audio/words/low_female.mp3"  
+          }  
+        ]  
+      },
+      "ʌ": {  
+      "ipaSymbol": "ʌ",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Short U",  
+      "descriptionSecondary": "open-mid back unrounded vowel",  
+      "descriptionPrimaryChinese": "短U",  
+      "descriptionSecondaryChinese": "开中后不圆唇元音",  
+      "audioMale": "/assets/audio/ʌ_male.mp3",  
+      "audioFemale": "/assets/audio/ʌ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʌ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/8_vowel_monophthong_open_mid_back_unrounded_diagram.png",  
+      "vocalTractMRI": "/assets/mri/8_vowel_monophthong_open_mid_back_unrounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "cup",  
+          "IPASpelling": "kʌp",  
+          "translationsChinese": ["杯子"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/cup_male.mp3",  
+          "audioFemale": "/assets/audio/words/cup_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "sun",  
+          "IPASpelling": "sʌn",  
+          "translationsChinese": ["太阳"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/sun_male.mp3",  
+          "audioFemale": "/assets/audio/words/sun_female.mp3"  
+        }  
+      ]  
+    },  
+    "ɔː": {  
+      "ipaSymbol": "ɔː",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Open O",  
+      "descriptionSecondary": "open-mid back rounded vowel",  
+      "descriptionPrimaryChinese": "开放O",  
+      "descriptionSecondaryChinese": "开中后圆唇元音",  
+      "audioMale": "/assets/audio/ɔː_male.mp3",  
+      "audioFemale": "/assets/audio/ɔː_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ɔː_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/7_vowel_monophthong_open_mid_back_rounded_diagram.png",  
+      "vocalTractMRI": "/assets/mri/7_vowel_monophthong_open_mid_back_rounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "law",  
+          "IPASpelling": "lɔː",  
+          "translationsChinese": ["法律"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/law_male.mp3",  
+          "audioFemale": "/assets/audio/words/law_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "saw",  
+          "IPASpelling": "sɔː",  
+          "translationsChinese": ["锯子"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/saw_male.mp3",  
+          "audioFemale": "/assets/audio/words/saw_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʊ": {  
+      "ipaSymbol": "ʊ",  
+      "type": "vowel",  
+      "subtype": "monophthong",  
+      "descriptionPrimary": "Short U",  
+      "descriptionSecondary": "near-close near-back rounded vowel",  
+      "descriptionPrimaryChinese": "短U",  
+      "descriptionSecondaryChinese": "近闭近后圆唇元音",  
+      "audioMale": "/assets/audio/ʊ_male.mp3",  
+      "audioFemale": "/assets/audio/ʊ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʊ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/6_vowel_monophthong_close_mid_back_rounded_MRI.mp4",  
+      "vocalTractMRI": "/assets/mri/6_vowel_monophthong_close_mid_back_rounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "book",  
+          "IPASpelling": "bʊk",  
+          "translationsChinese": ["书"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/book_male.mp3",  
+          "audioFemale": "/assets/audio/words/book_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "foot",  
+          "IPASpelling": "fʊt",  
+          "translationsChinese": ["脚"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/foot_male.mp3",  
+          "audioFemale": "/assets/audio/words/foot_female.mp3"  
+        }  
+      ]  
+    },  
+    "aʊ": {  
+      "ipaSymbol": "aʊ",  
+      "type": "vowel",  
+      "subtype": "diphthong",  
+      "descriptionPrimary": "Long OU",  
+      "descriptionSecondary": "front open to back rounded vowel",  
+      "descriptionPrimaryChinese": "长OU",  
+      "descriptionSecondaryChinese": "前开到后圆唇元音",  
+      "audioMale": "/assets/audio/aʊ_male.mp3",  
+      "audioFemale": "/assets/audio/aʊ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/aʊ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/12_vowel_diphthong_front_open_to_back_rounded_diagram.gif",  
+      "vocalTractMRI": "/assets/mri/12_vowel_diphthong_front_open_to_back_rounded_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "cow",  
+          "IPASpelling": "kaʊ",  
+          "translationsChinese": ["牛"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/cow_male.mp3",  
+          "audioFemale": "/assets/audio/words/cow_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "now",  
+          "IPASpelling": "naʊ",  
+          "translationsChinese": ["现在"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/now_male.mp3",  
+          "audioFemale": "/assets/audio/words/now_female.mp3"  
+        }  
+      ]  
+    },  
+    "ɔɪ": {  
+      "ipaSymbol": "ɔɪ",  
+      "type": "vowel",  
+      "subtype": "diphthong",  
+      "descriptionPrimary": "Open OI",  
+      "descriptionSecondary": "back open to front mid vowel",  
+      "descriptionPrimaryChinese": "开放OI",  
+      "descriptionSecondaryChinese": "后开到前中元音",  
+      "audioMale": "/assets/audio/ɔɪ_male.mp3",  
+      "audioFemale": "/assets/audio/ɔɪ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ɔɪ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/14_vowel_diphthong_back_open_to_front_mid.gif",  
+      "vocalTractMRI": "/assets/mri/14_vowel_diphthong_back_open_to_front_mid_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "boy",  
+          "IPASpelling": "bɔɪ",  
+          "translationsChinese": ["男孩"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/boy_male.mp3",  
+          "audioFemale": "/assets/audio/words/boy_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "toy",  
+          "IPASpelling": "tɔɪ",  
+          "translationsChinese": ["玩具"],  
+          "highlightMethod": {  
+            "englishSpelling": [2],  
+            "IPASpelling": [2]  
+          },  
+          "audioMale": "/assets/audio/words/toy_male.mp3",  
+          "audioFemale": "/assets/audio/words/toy_female.mp3"  
+        }  
+      ]  
+    },
+    "p": {  
+      "ipaSymbol": "p",  
+      "type": "consonant",  
+      "subtype": "voiceless bilabial plosive",  
+      "descriptionPrimary": "Voiceless Bilabial Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the lips and releasing it",  
+      "descriptionPrimaryChinese": "清双唇爆破音",  
+      "descriptionSecondaryChinese": "通过双唇阻断气流并释放产生",  
+      "audioMale": "/assets/audio/p_male.mp3",  
+      "audioFemale": "/assets/audio/p_female.mp3",  
+      "audioDefaultExample": "/assets/audio/p_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/1_consonant_voiceless_bilabial_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/1_consonant_voiceless_bilabial_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "pat",  
+          "IPASpelling": "pæt",  
+          "translationsChinese": ["拍"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/pat_male.mp3",  
+          "audioFemale": "/assets/audio/words/pat_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "cap",  
+          "IPASpelling": "kæp",  
+          "translationsChinese": ["帽子"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/cap_male.mp3",  
+          "audioFemale": "/assets/audio/words/cap_female.mp3"  
+        }  
+      ]  
+    },  
+    "b": {  
+      "ipaSymbol": "b",  
+      "type": "consonant",  
+      "subtype": "voiced bilabial plosive",  
+      "descriptionPrimary": "Voiced Bilabial Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the lips and releasing it with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊双唇爆破音",  
+      "descriptionSecondaryChinese": "通过双唇阻断气流并伴随声带振动释放产生",  
+      "audioMale": "/assets/audio/b_male.mp3",  
+      "audioFemale": "/assets/audio/b_female.mp3",  
+      "audioDefaultExample": "/assets/audio/b_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/2_consonant_voiced_bilabial_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/2_consonant_voiced_bilabial_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "bat",  
+          "IPASpelling": "bæt",  
+          "translationsChinese": ["蝙蝠"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/bat_male.mp3",  
+          "audioFemale": "/assets/audio/words/bat_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "job",  
+          "IPASpelling": "dʒɒb",  
+          "translationsChinese": ["工作"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/job_male.mp3",  
+          "audioFemale": "/assets/audio/words/job_female.mp3"  
+        }  
+      ]  
+    },  
+    "t": {  
+      "ipaSymbol": "t",  
+      "type": "consonant",  
+      "subtype": "voiceless alveolar plosive",  
+      "descriptionPrimary": "Voiceless Alveolar Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the alveolar ridge and releasing it",  
+      "descriptionPrimaryChinese": "清齿龈爆破音",  
+      "descriptionSecondaryChinese": "通过齿龈阻断气流并释放产生",  
+      "audioMale": "/assets/audio/t_male.mp3",  
+      "audioFemale": "/assets/audio/t_female.mp3",  
+      "audioDefaultExample": "/assets/audio/t_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/3_consonant_voiceless_alveolar_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/3_consonant_voiceless_alveolar_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "top",  
+          "IPASpelling": "tɒp",  
+          "translationsChinese": ["顶部"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/top_male.mp3",  
+          "audioFemale": "/assets/audio/words/top_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "cat",  
+          "IPASpelling": "kæt",  
+          "translationsChinese": ["猫"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/cat_male.mp3",  
+          "audioFemale": "/assets/audio/words/cat_female.mp3"  
+        }  
+      ]  
+    },  
+    "d": {  
+      "ipaSymbol": "d",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar plosive",  
+      "descriptionPrimary": "Voiced Alveolar Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the alveolar ridge and releasing it with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊齿龈爆破音",  
+      "descriptionSecondaryChinese": "通过齿龈阻断气流并伴随声带振动释放产生",  
+      "audioMale": "/assets/audio/d_male.mp3",  
+      "audioFemale": "/assets/audio/d_female.mp3",  
+      "audioDefaultExample": "/assets/audio/d_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/4_consonant_voiced_alveolar_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/4_consonant_voiced_alveolar_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "dog",  
+          "IPASpelling": "dɒɡ",  
+          "translationsChinese": ["狗"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/dog_male.mp3",  
+          "audioFemale": "/assets/audio/words/dog_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "mad",  
+          "IPASpelling": "mæd",  
+          "translationsChinese": ["生气"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/mad_male.mp3",  
+          "audioFemale": "/assets/audio/words/mad_female.mp3"  
+        }  
+      ]  
+    },
+    "k": {  
+      "ipaSymbol": "k",  
+      "type": "consonant",  
+      "subtype": "voiceless velar plosive",  
+      "descriptionPrimary": "Voiceless Velar Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the velum and releasing it",  
+      "descriptionPrimaryChinese": "清软腭爆破音",  
+      "descriptionSecondaryChinese": "通过软腭阻断气流并释放产生",  
+      "audioMale": "/assets/audio/k_male.mp3",  
+      "audioFemale": "/assets/audio/k_female.mp3",  
+      "audioDefaultExample": "/assets/audio/k_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/5_consonant_voiceless_velar_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/5_consonant_voiceless_velar_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "cat",  
+          "IPASpelling": "kæt",  
+          "translationsChinese": ["猫"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/cat_male.mp3",  
+          "audioFemale": "/assets/audio/words/cat_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "kick",  
+          "IPASpelling": "kɪk",  
+          "translationsChinese": ["踢"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/kick_male.mp3",  
+          "audioFemale": "/assets/audio/words/kick_female.mp3"  
+        }  
+      ]  
+    },  
+    "g": {  
+      "ipaSymbol": "g",  
+      "type": "consonant",  
+      "subtype": "voiced velar plosive",  
+      "descriptionPrimary": "Voiced Velar Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the velum and releasing it with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊软腭爆破音",  
+      "descriptionSecondaryChinese": "通过软腭阻断气流并伴随声带振动释放产生",  
+      "audioMale": "/assets/audio/g_male.mp3",  
+      "audioFemale": "/assets/audio/g_female.mp3",  
+      "audioDefaultExample": "/assets/audio/g_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/6_consonant_voiced_velar_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/6_consonant_voiced_velar_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "go",  
+          "IPASpelling": "ɡoʊ",  
+          "translationsChinese": ["去"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/go_male.mp3",  
+          "audioFemale": "/assets/audio/words/go_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "bag",  
+          "IPASpelling": "bæɡ",  
+          "translationsChinese": ["包"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/bag_male.mp3",  
+          "audioFemale": "/assets/audio/words/bag_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʔ": {  
+      "ipaSymbol": "ʔ",  
+      "type": "consonant",  
+      "subtype": "voiceless glottal plosive",  
+      "descriptionPrimary": "Voiceless Glottal Plosive",  
+      "descriptionSecondary": "produced by obstructing airflow at the glottis and releasing it",  
+      "descriptionPrimaryChinese": "清声门爆破音",  
+      "descriptionSecondaryChinese": "通过声门阻断气流并释放产生",  
+      "audioMale": "/assets/audio/ʔ_male.mp3",  
+      "audioFemale": "/assets/audio/ʔ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʔ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/7_consonant_voiceless_glottal_plosive_diagram.png",  
+      "vocalTractMRI": "/assets/mri/7_consonant_voiceless_glottal_plosive_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "uh-oh",  
+          "IPASpelling": "ʔʌʔoʊ",  
+          "translationsChinese": ["哦哦"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/uh-oh_male.mp3",  
+          "audioFemale": "/assets/audio/words/uh-oh_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "button",  
+          "IPASpelling": "ˈbʌʔn̩",  
+          "translationsChinese": ["按钮"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/button_male.mp3",  
+          "audioFemale": "/assets/audio/words/button_female.mp3"  
+        }  
+      ]  
+    },  
+    "m": {  
+      "ipaSymbol": "m",  
+      "type": "consonant",  
+      "subtype": "voiced bilabial nasal",  
+      "descriptionPrimary": "Voiced Bilabial Nasal",  
+      "descriptionSecondary": "produced by airflow through the nose while the lips are closed",  
+      "descriptionPrimaryChinese": "浊双唇鼻音",  
+      "descriptionSecondaryChinese": "通过鼻腔气流并闭合双唇产生",  
+      "audioMale": "/assets/audio/m_male.mp3",  
+      "audioFemale": "/assets/audio/m_female.mp3",  
+      "audioDefaultExample": "/assets/audio/m_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/8_consonant_voiced_bilabial_nasal_diagram.png",  
+      "vocalTractMRI": "/assets/mri/8_consonant_voiced_bilabial_nasal_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "man",  
+          "IPASpelling": "mæn",  
+          "translationsChinese": ["男人"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/man_male.mp3",  
+          "audioFemale": "/assets/audio/words/man_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "some",  
+          "IPASpelling": "sʌm",  
+          "translationsChinese": ["一些"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/some_male.mp3",  
+          "audioFemale": "/assets/audio/words/some_female.mp3"  
+        }  
+      ]  
+    },
+    "n": {  
+      "ipaSymbol": "n",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar nasal",  
+      "descriptionPrimary": "Voiced Alveolar Nasal",  
+      "descriptionSecondary": "produced by airflow through the nose while the tongue touches the alveolar ridge",  
+      "descriptionPrimaryChinese": "浊齿龈鼻音",  
+      "descriptionSecondaryChinese": "通过鼻腔气流并舌头触碰齿龈脊产生",  
+      "audioMale": "/assets/audio/n_male.mp3",  
+      "audioFemale": "/assets/audio/n_female.mp3",  
+      "audioDefaultExample": "/assets/audio/n_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/9_consonant_voiced_alveolar_nasal_diagram.png",  
+      "vocalTractMRI": "/assets/mri/9_consonant_voiced_alveolar_nasal_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "net",  
+          "IPASpelling": "nɛt",  
+          "translationsChinese": ["网"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/net_male.mp3",  
+          "audioFemale": "/assets/audio/words/net_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "sun",  
+          "IPASpelling": "sʌn",  
+          "translationsChinese": ["太阳"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/sun_male.mp3",  
+          "audioFemale": "/assets/audio/words/sun_female.mp3"  
+        }  
+      ]  
+    },  
+    "ŋ": {  
+      "ipaSymbol": "ŋ",  
+      "type": "consonant",  
+      "subtype": "voiced velar nasal",  
+      "descriptionPrimary": "Voiced Velar Nasal",  
+      "descriptionSecondary": "produced by airflow through the nose while the back of the tongue touches the velum",  
+      "descriptionPrimaryChinese": "浊软腭鼻音",  
+      "descriptionSecondaryChinese": "通过鼻腔气流并舌头后部触碰软腭产生",  
+      "audioMale": "/assets/audio/ŋ_male.mp3",  
+      "audioFemale": "/assets/audio/ŋ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ŋ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/10_consonant_voiced_velar_nasal_diagram.png",  
+      "vocalTractMRI": "/assets/mri/10_consonant_voiced_velar_nasal_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "sing",  
+          "IPASpelling": "sɪŋ",  
+          "translationsChinese": ["唱歌"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/sing_male.mp3",  
+          "audioFemale": "/assets/audio/words/sing_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "king",  
+          "IPASpelling": "kɪŋ",  
+          "translationsChinese": ["国王"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/king_male.mp3",  
+          "audioFemale": "/assets/audio/words/king_female.mp3"  
+        }  
+      ]  
+    },  
+    "f": {  
+      "ipaSymbol": "f",  
+      "type": "consonant",  
+      "subtype": "voiceless labiodental fricative",  
+      "descriptionPrimary": "Voiceless Labiodental Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction between the lower lip and upper teeth",  
+      "descriptionPrimaryChinese": "清唇齿擦音",  
+      "descriptionSecondaryChinese": "通过下唇和上牙之间的狭窄通道产生气流",  
+      "audioMale": "/assets/audio/f_male.mp3",  
+      "audioFemale": "/assets/audio/f_female.mp3",  
+      "audioDefaultExample": "/assets/audio/f_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/11_consonant_voiceless_labiodental_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/11_consonant_voiceless_labiodental_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "fish",  
+          "IPASpelling": "fɪʃ",  
+          "translationsChinese": ["鱼"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/fish_male.mp3",  
+          "audioFemale": "/assets/audio/words/fish_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "fun",  
+          "IPASpelling": "fʌn",  
+          "translationsChinese": ["乐趣"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/fun_male.mp3",  
+          "audioFemale": "/assets/audio/words/fun_female.mp3"  
+        }  
+      ]  
+    },  
+    "v": {  
+      "ipaSymbol": "v",  
+      "type": "consonant",  
+      "subtype": "voiced labiodental fricative",  
+      "descriptionPrimary": "Voiced Labiodental Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction between the lower lip and upper teeth with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊唇齿擦音",  
+      "descriptionSecondaryChinese": "通过下唇和上牙之间的狭窄通道伴随声带振动产生",  
+      "audioMale": "/assets/audio/v_male.mp3",  
+      "audioFemale": "/assets/audio/v_female.mp3",  
+      "audioDefaultExample": "/assets/audio/v_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/12_consonant_voiced_labiodental_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/12_consonant_voiced_labiodental_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "van",  
+          "IPASpelling": "væn",  
+          "translationsChinese": ["货车"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/van_male.mp3",  
+          "audioFemale": "/assets/audio/words/van_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "love",  
+          "IPASpelling": "lʌv",  
+          "translationsChinese": ["爱"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/love_male.mp3",  
+          "audioFemale": "/assets/audio/words/love_female.mp3"  
+        }  
+      ]  
+    },
+    "s": {  
+      "ipaSymbol": "s",  
+      "type": "consonant",  
+      "subtype": "voiceless alveolar fricative",  
+      "descriptionPrimary": "Voiceless Alveolar Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction at the alveolar ridge",  
+      "descriptionPrimaryChinese": "清齿龈擦音",  
+      "descriptionSecondaryChinese": "通过齿龈狭窄通道产生气流",  
+      "audioMale": "/assets/audio/s_male.mp3",  
+      "audioFemale": "/assets/audio/s_female.mp3",  
+      "audioDefaultExample": "/assets/audio/s_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/13_consonant_voiceless_alveolar_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/13_consonant_voiceless_alveolar_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "sun",  
+          "IPASpelling": "sʌn",  
+          "translationsChinese": ["太阳"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/sun_male.mp3",  
+          "audioFemale": "/assets/audio/words/sun_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "sit",  
+          "IPASpelling": "sɪt",  
+          "translationsChinese": ["坐"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/sit_male.mp3",  
+          "audioFemale": "/assets/audio/words/sit_female.mp3"  
+        }  
+      ]  
+    },  
+    "z": {  
+      "ipaSymbol": "z",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar fricative",  
+      "descriptionPrimary": "Voiced Alveolar Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction at the alveolar ridge with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊齿龈擦音",  
+      "descriptionSecondaryChinese": "通过齿龈狭窄通道伴随声带振动产生",  
+      "audioMale": "/assets/audio/z_male.mp3",  
+      "audioFemale": "/assets/audio/z_female.mp3",  
+      "audioDefaultExample": "/assets/audio/z_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/14_consonant_voiced_alveolar_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/14_consonant_voiced_alveolar_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "zoo",  
+          "IPASpelling": "zuː",  
+          "translationsChinese": ["动物园"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/zoo_male.mp3",  
+          "audioFemale": "/assets/audio/words/zoo_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "buzz",  
+          "IPASpelling": "bʌz",  
+          "translationsChinese": ["嗡嗡声"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/buzz_male.mp3",  
+          "audioFemale": "/assets/audio/words/buzz_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʃ": {  
+      "ipaSymbol": "ʃ",  
+      "type": "consonant",  
+      "subtype": "voiceless postalveolar fricative",  
+      "descriptionPrimary": "Voiceless Postalveolar Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction just behind the alveolar ridge",  
+      "descriptionPrimaryChinese": "清后齿龈擦音",  
+      "descriptionSecondaryChinese": "通过齿龈后方狭窄通道产生气流",  
+      "audioMale": "/assets/audio/ʃ_male.mp3",  
+      "audioFemale": "/assets/audio/ʃ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʃ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/15_consonant_voiceless_postalveolar_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/15_consonant_voiceless_postalveolar_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "shoe",  
+          "IPASpelling": "ʃuː",  
+          "translationsChinese": ["鞋"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/shoe_male.mp3",  
+          "audioFemale": "/assets/audio/words/shoe_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "fish",  
+          "IPASpelling": "fɪʃ",  
+          "translationsChinese": ["鱼"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/fish_male.mp3",  
+          "audioFemale": "/assets/audio/words/fish_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʒ": {  
+      "ipaSymbol": "ʒ",  
+      "type": "consonant",  
+      "subtype": "voiced postalveolar fricative",  
+      "descriptionPrimary": "Voiced Postalveolar Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction just behind the alveolar ridge with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊后齿龈擦音",  
+      "descriptionSecondaryChinese": "通过齿龈后方狭窄通道伴随声带振动产生",  
+      "audioMale": "/assets/audio/ʒ_male.mp3",  
+      "audioFemale": "/assets/audio/ʒ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʒ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/16_consonant_voiced_postalveolar_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/16_consonant_voiced_postalveolar_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "measure",  
+          "IPASpelling": "ˈmɛʒər",  
+          "translationsChinese": ["测量"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/measure_male.mp3",  
+          "audioFemale": "/assets/audio/words/measure_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "vision",  
+          "IPASpelling": "ˈvɪʒən",  
+          "translationsChinese": ["视力"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/vision_male.mp3",  
+          "audioFemale": "/assets/audio/words/vision_female.mp3"  
+        }  
+      ]  
+    },
+    "h": {  
+      "ipaSymbol": "h",  
+      "type": "consonant",  
+      "subtype": "voiceless glottal fricative",  
+      "descriptionPrimary": "Voiceless Glottal Fricative",  
+      "descriptionSecondary": "produced by airflow through the glottis without vocal cord vibration",  
+      "descriptionPrimaryChinese": "清声门擦音",  
+      "descriptionSecondaryChinese": "通过声门气流且无声带振动产生",  
+      "audioMale": "/assets/audio/h_male.mp3",  
+      "audioFemale": "/assets/audio/h_female.mp3",  
+      "audioDefaultExample": "/assets/audio/h_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/17_consonant_voiceless_glottal_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/17_consonant_voiceless_glottal_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "hat",  
+          "IPASpelling": "hæt",  
+          "translationsChinese": ["帽子"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/hat_male.mp3",  
+          "audioFemale": "/assets/audio/words/hat_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "happy",  
+          "IPASpelling": "ˈhæpi",  
+          "translationsChinese": ["开心"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/happy_male.mp3",  
+          "audioFemale": "/assets/audio/words/happy_female.mp3"  
+        }  
+      ]  
+    },  
+    "l": {  
+      "ipaSymbol": "l",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar lateral approximant",  
+      "descriptionPrimary": "Voiced Alveolar Lateral Approximant",  
+      "descriptionSecondary": "produced by airflow around the sides of the tongue while the tongue touches the alveolar ridge",  
+      "descriptionPrimaryChinese": "浊齿龈边近音",  
+      "descriptionSecondaryChinese": "通过舌头触碰齿龈脊并气流绕过舌头两侧产生",  
+      "audioMale": "/assets/audio/l_male.mp3",  
+      "audioFemale": "/assets/audio/l_female.mp3",  
+      "audioDefaultExample": "/assets/audio/l_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/18_consonant_voiced_alveolar_lateral_approximant_diagram.png",  
+      "vocalTractMRI": "/assets/mri/18_consonant_voiced_alveolar_lateral_approximant_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "light",  
+          "IPASpelling": "laɪt",  
+          "translationsChinese": ["光"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/light_male.mp3",  
+          "audioFemale": "/assets/audio/words/light_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "ball",  
+          "IPASpelling": "bɔːl",  
+          "translationsChinese": ["球"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/ball_male.mp3",  
+          "audioFemale": "/assets/audio/words/ball_female.mp3"  
+        }  
+      ]  
+    },  
+    "r": {  
+      "ipaSymbol": "r",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar approximant",  
+      "descriptionPrimary": "Voiced Alveolar Approximant",  
+      "descriptionSecondary": "produced by airflow around the tongue while the tongue approaches the alveolar ridge without touching it",  
+      "descriptionPrimaryChinese": "浊齿龈近音",  
+      "descriptionSecondaryChinese": "通过舌头接近齿龈脊但不触碰产生气流",  
+      "audioMale": "/assets/audio/r_male.mp3",  
+      "audioFemale": "/assets/audio/r_female.mp3",  
+      "audioDefaultExample": "/assets/audio/r_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/19_consonant_voiced_alveolar_approximant_diagram.png",  
+      "vocalTractMRI": "/assets/mri/19_consonant_voiced_alveolar_approximant_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "red",  
+          "IPASpelling": "rɛd",  
+          "translationsChinese": ["红色"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/red_male.mp3",  
+          "audioFemale": "/assets/audio/words/red_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "car",  
+          "IPASpelling": "kɑːr",  
+          "translationsChinese": ["汽车"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/car_male.mp3",  
+          "audioFemale": "/assets/audio/words/car_female.mp3"  
+        }  
+      ]  
+    },  
+    "w": {  
+      "ipaSymbol": "w",  
+      "type": "consonant",  
+      "subtype": "voiced labio-velar approximant",  
+      "descriptionPrimary": "Voiced Labio-Velar Approximant",  
+      "descriptionSecondary": "produced by rounding the lips and raising the back of the tongue toward the velum",  
+      "descriptionPrimaryChinese": "浊唇软腭近音",  
+      "descriptionSecondaryChinese": "通过圆唇并抬起舌头后部接近软腭产生",  
+      "audioMale": "/assets/audio/w_male.mp3",  
+      "audioFemale": "/assets/audio/w_female.mp3",  
+      "audioDefaultExample": "/assets/audio/w_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/20_consonant_voiced_labio_velar_approximant_diagram.png",  
+      "vocalTractMRI": "/assets/mri/20_consonant_voiced_labio_velar_approximant_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "water",  
+          "IPASpelling": "ˈwɔːtər",  
+          "translationsChinese": ["水"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/water_male.mp3",  
+          "audioFemale": "/assets/audio/words/water_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "win",  
+          "IPASpelling": "wɪn",  
+          "translationsChinese": ["赢"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/win_male.mp3",  
+          "audioFemale": "/assets/audio/words/win_female.mp3"  
+        }  
+      ]  
+    },
+    "j": {  
+      "ipaSymbol": "j",  
+      "type": "consonant",  
+      "subtype": "voiced palatal approximant",  
+      "descriptionPrimary": "Voiced Palatal Approximant",  
+      "descriptionSecondary": "produced by raising the middle of the tongue toward the hard palate without creating turbulence",  
+      "descriptionPrimaryChinese": "浊硬腭近音",  
+      "descriptionSecondaryChinese": "通过抬起舌头中部接近硬腭且不产生气流湍流",  
+      "audioMale": "/assets/audio/j_male.mp3",  
+      "audioFemale": "/assets/audio/j_female.mp3",  
+      "audioDefaultExample": "/assets/audio/j_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/21_consonant_voiced_palatal_approximant_diagram.png",  
+      "vocalTractMRI": "/assets/mri/21_consonant_voiced_palatal_approximant_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "yes",  
+          "IPASpelling": "jɛs",  
+          "translationsChinese": ["是"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/yes_male.mp3",  
+          "audioFemale": "/assets/audio/words/yes_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "yellow",  
+          "IPASpelling": "ˈjɛloʊ",  
+          "translationsChinese": ["黄色"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/yellow_male.mp3",  
+          "audioFemale": "/assets/audio/words/yellow_female.mp3"  
+        }  
+      ]  
+    },  
+    "tʃ": {  
+      "ipaSymbol": "tʃ",  
+      "type": "consonant",  
+      "subtype": "voiceless postalveolar affricate",  
+      "descriptionPrimary": "Voiceless Postalveolar Affricate",  
+      "descriptionSecondary": "produced by a stop closure at the postalveolar region followed by a fricative release",  
+      "descriptionPrimaryChinese": "清后齿龈塞擦音",  
+      "descriptionSecondaryChinese": "通过后齿龈区域的阻塞闭合并伴随擦音释放产生",  
+      "audioMale": "/assets/audio/tʃ_male.mp3",  
+      "audioFemale": "/assets/audio/tʃ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/tʃ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/22_consonant_voiceless_postalveolar_affricate_diagram.png",  
+      "vocalTractMRI": "/assets/mri/22_consonant_voiceless_postalveolar_affricate_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "chair",  
+          "IPASpelling": "tʃɛr",  
+          "translationsChinese": ["椅子"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/chair_male.mp3",  
+          "audioFemale": "/assets/audio/words/chair_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "watch",  
+          "IPASpelling": "wɒtʃ",  
+          "translationsChinese": ["手表"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [4]  
+          },  
+          "audioMale": "/assets/audio/words/watch_male.mp3",  
+          "audioFemale": "/assets/audio/words/watch_female.mp3"  
+        }  
+      ]  
+    },  
+    "dʒ": {  
+      "ipaSymbol": "dʒ",  
+      "type": "consonant",  
+      "subtype": "voiced postalveolar affricate",  
+      "descriptionPrimary": "Voiced Postalveolar Affricate",  
+      "descriptionSecondary": "produced by a stop closure at the postalveolar region followed by a fricative release with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊后齿龈塞擦音",  
+      "descriptionSecondaryChinese": "通过后齿龈区域的阻塞闭合并伴随声带振动的擦音释放产生",  
+      "audioMale": "/assets/audio/dʒ_male.mp3",  
+      "audioFemale": "/assets/audio/dʒ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/dʒ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/23_consonant_voiced_postalveolar_affricate_diagram.png",  
+      "vocalTractMRI": "/assets/mri/23_consonant_voiced_postalveolar_affricate_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "jump",  
+          "IPASpelling": "dʒʌmp",  
+          "translationsChinese": ["跳"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/jump_male.mp3",  
+          "audioFemale": "/assets/audio/words/jump_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "judge",  
+          "IPASpelling": "dʒʌdʒ",  
+          "translationsChinese": ["法官"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/judge_male.mp3",  
+          "audioFemale": "/assets/audio/words/judge_female.mp3"  
+        }  
+      ]  
+    },  
+    "θ": {  
+      "ipaSymbol": "θ",  
+      "type": "consonant",  
+      "subtype": "voiceless dental fricative",  
+      "descriptionPrimary": "Voiceless Dental Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction between the tongue and the upper teeth",  
+      "descriptionPrimaryChinese": "清齿擦音",  
+      "descriptionSecondaryChinese": "通过舌头和上牙之间的狭窄通道产生气流",  
+      "audioMale": "/assets/audio/θ_male.mp3",  
+      "audioFemale": "/assets/audio/θ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/θ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/24_consonant_voiceless_dental_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/24_consonant_voiceless_dental_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "think",  
+          "IPASpelling": "θɪŋk",  
+          "translationsChinese": ["想"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/think_male.mp3",  
+          "audioFemale": "/assets/audio/words/think_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "bath",  
+          "IPASpelling": "bɑːθ",  
+          "translationsChinese": ["浴"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/bath_male.mp3",  
+          "audioFemale": "/assets/audio/words/bath_female.mp3"  
+        }  
+      ]  
+    },
+    "ð": {  
+      "ipaSymbol": "ð",  
+      "type": "consonant",  
+      "subtype": "voiced dental fricative",  
+      "descriptionPrimary": "Voiced Dental Fricative",  
+      "descriptionSecondary": "produced by airflow through a narrow constriction between the tongue and the upper teeth with vocal cord vibration",  
+      "descriptionPrimaryChinese": "浊齿擦音",  
+      "descriptionSecondaryChinese": "通过舌头和上牙之间的狭窄通道伴随声带振动产生",  
+      "audioMale": "/assets/audio/ð_male.mp3",  
+      "audioFemale": "/assets/audio/ð_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ð_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/25_consonant_voiced_dental_fricative_diagram.png",  
+      "vocalTractMRI": "/assets/mri/25_consonant_voiced_dental_fricative_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "this",  
+          "IPASpelling": "ðɪs",  
+          "translationsChinese": ["这个"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/this_male.mp3",  
+          "audioFemale": "/assets/audio/words/this_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "father",  
+          "IPASpelling": "ˈfɑːðər",  
+          "translationsChinese": ["父亲"],  
+          "highlightMethod": {  
+            "englishSpelling": [4],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/father_male.mp3",  
+          "audioFemale": "/assets/audio/words/father_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʍ": {  
+      "ipaSymbol": "ʍ",  
+      "type": "consonant",  
+      "subtype": "voiceless labio-velar approximant",  
+      "descriptionPrimary": "Voiceless Labio-Velar Approximant",  
+      "descriptionSecondary": "produced by rounding the lips and raising the back of the tongue toward the velum without vocal cord vibration",  
+      "descriptionPrimaryChinese": "清唇软腭近音",  
+      "descriptionSecondaryChinese": "通过圆唇并抬起舌头后部接近软腭且无声带振动产生",  
+      "audioMale": "/assets/audio/ʍ_male.mp3",  
+      "audioFemale": "/assets/audio/ʍ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʍ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/26_consonant_voiceless_labio_velar_approximant_diagram.png",  
+      "vocalTractMRI": "/assets/mri/26_consonant_voiceless_labio_velar_approximant_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "which",  
+          "IPASpelling": "ʍɪtʃ",  
+          "translationsChinese": ["哪个"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/which_male.mp3",  
+          "audioFemale": "/assets/audio/words/which_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "whale",  
+          "IPASpelling": "ʍeɪl",  
+          "translationsChinese": ["鲸鱼"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/whale_male.mp3",  
+          "audioFemale": "/assets/audio/words/whale_female.mp3"  
+        }  
+      ]  
+    },  
+    "ɾ": {  
+      "ipaSymbol": "ɾ",  
+      "type": "consonant",  
+      "subtype": "voiced alveolar tap",  
+      "descriptionPrimary": "Voiced Alveolar Tap",  
+      "descriptionSecondary": "produced by a single rapid contact of the tongue against the alveolar ridge",  
+      "descriptionPrimaryChinese": "浊齿龈闪音",  
+      "descriptionSecondaryChinese": "通过舌头快速接触齿龈脊产生",  
+      "audioMale": "/assets/audio/ɾ_male.mp3",  
+      "audioFemale": "/assets/audio/ɾ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ɾ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/27_consonant_voiced_alveolar_tap_diagram.png",  
+      "vocalTractMRI": "/assets/mri/27_consonant_voiced_alveolar_tap_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "butter",  
+          "IPASpelling": "ˈbʌɾər",  
+          "translationsChinese": ["黄油"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/butter_male.mp3",  
+          "audioFemale": "/assets/audio/words/butter_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "ladder",  
+          "IPASpelling": "ˈlæɾər",  
+          "translationsChinese": ["梯子"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/ladder_male.mp3",  
+          "audioFemale": "/assets/audio/words/ladder_female.mp3"  
+        }  
+      ]  
+    },  
+    "ʔ": {  
+      "ipaSymbol": "ʔ",  
+      "type": "consonant",  
+      "subtype": "voiceless glottal stop",  
+      "descriptionPrimary": "Voiceless Glottal Stop",  
+      "descriptionSecondary": "produced by completely obstructing airflow at the glottis and releasing it",  
+      "descriptionPrimaryChinese": "清声门塞音",  
+      "descriptionSecondaryChinese": "通过完全阻断声门气流并释放产生",  
+      "audioMale": "/assets/audio/ʔ_male.mp3",  
+      "audioFemale": "/assets/audio/ʔ_female.mp3",  
+      "audioDefaultExample": "/assets/audio/ʔ_example.mp3",  
+      "vocalTractDiagram": "/assets/diagrams/28_consonant_voiceless_glottal_stop_diagram.png",  
+      "vocalTractMRI": "/assets/mri/28_consonant_voiceless_glottal_stop_MRI.mp4",  
+      "exampleWords": [  
+        {  
+          "englishSpelling": "uh-oh",  
+          "IPASpelling": "ʔʌʔoʊ",  
+          "translationsChinese": ["哦哦"],  
+          "highlightMethod": {  
+            "englishSpelling": [1],  
+            "IPASpelling": [1]  
+          },  
+          "audioMale": "/assets/audio/words/uh-oh_male.mp3",  
+          "audioFemale": "/assets/audio/words/uh-oh_female.mp3"  
+        },  
+        {  
+          "englishSpelling": "button",  
+          "IPASpelling": "ˈbʌʔn̩",  
+          "translationsChinese": ["按钮"],  
+          "highlightMethod": {  
+            "englishSpelling": [3],  
+            "IPASpelling": [3]  
+          },  
+          "audioMale": "/assets/audio/words/button_male.mp3",  
+          "audioFemale": "/assets/audio/words/button_female.mp3"  
+        }  
+      ]  
+    }
+  }  
+}
