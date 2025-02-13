@@ -10,7 +10,8 @@ import letterData from "../data/letterData.json";
 import letterDataAlt from "../data/soundData.json";
 
 const dataTemp = JSON.parse(JSON.stringify(letterDataAlt));
-const lettersToIPA = dataTemp.lettersToIPA;
+const lettersToIPATemp = dataTemp.lettersToIPA;
+const IPASoundsData = dataTemp.IPASounds;
 
 const data = JSON.parse(JSON.stringify(letterData));  
 
@@ -39,27 +40,70 @@ const LetterReference: React.FC = () => {
 
   // Effects  
   useEffect(() => {  
-    const currentLetterDataTemp = lettersData.letters.find(  
-      (letter: any) => letter.englishLetter === selectedLetter  
-    );  
+    console.log("Does this hit?");
+    // #1 Find the selected letter in lettersToIPATemp
+    // This is key - value pair; the key is a letter, uppercase,
+    // .. and the value is an array of associated IPA sounds
 
-    if (currentLetterDataTemp) {  
-      setCurrentLetterData(currentLetterDataTemp);  
-      const ipaSoundsTemp = currentLetterDataTemp.sounds.map((sound: any) => sound.IPA);  
-      setIPASounds(ipaSoundsTemp);  
-    } else {  
+    let associatedIPA;
+    let associatedIPAdata: { [key: string]: any } = {};
+
+    if (selectedLetter in lettersToIPATemp) {
+      associatedIPA = lettersToIPATemp[selectedLetter];
+      setIPASounds(associatedIPA);
+
+      associatedIPA.forEach((ipa: string) => {
+        if (ipa in IPASoundsData) {
+          associatedIPAdata[ipa] = IPASoundsData[ipa];
+        } else {
+          console.error("selectedIPA value not found in IPASoundsData. This should not happen.");
+        }
+      });
+
+      if (associatedIPAdata) {
+        setCurrentLetterData(associatedIPAdata);
+      } else {
+        setCurrentLetterData({});
+      }
+      
+    } else {
+      console.error("selectedLetter value outside A-Z range. This should not happen.");
+      
       setCurrentLetterData({});  
       setIPASounds([]);  
-    }  
+    }
+
+    // const currentLetterDataTemp = lettersData.letters.find(  
+    //   (letter: any) => letter.englishLetter === selectedLetter  
+    // );  
+
+  //#2 I need to build an object containing the IPA sounds for the selected letter
+  // This object will be used to populate the IPATabs component
+  // In the previous operation, I'll get the array of IPA sounds for the selected letter
+  // For each IPA sound, I'll find the corresponding IPA sound object in IPASoundsTemp,
+  // and will incorporate that into currentLetterDataTemp
+
+  // I'll then set IPASounds item.ipaSymbol into the IPA sounds array
+
+    // if (currentLetterDataTemp) {  
+    //   setCurrentLetterData(currentLetterDataTemp);  
+    //   const ipaSoundsTemp = currentLetterDataTemp.sounds.map((sound: any) => sound.IPA);  
+    //   setIPASounds(ipaSoundsTemp);  
+    // } else {  
+    //   setCurrentLetterData({});  
+    //   setIPASounds([]);  
+    // }  
+
   }, [selectedLetter, lettersData]);  
 
   useEffect(() => {  
-    if (currentLetterData && selectedIPA) {  
-      const currentIPADataTemp = currentLetterData.sounds.find(  
-        (sound: any) => sound.IPA === selectedIPA  
-      );  
-      setCurrentIPAData(currentIPADataTemp || {});  
-    }  
+    console.log("This hits");
+    console.log(selectedIPA);
+    console.log(currentLetterData);
+    if (selectedIPA in currentLetterData) {
+      setCurrentIPAData(currentLetterData[selectedIPA] || {});  
+      console.log(currentIPAData);
+    }
   }, [selectedIPA, currentLetterData]);  
 
   return (  
@@ -71,7 +115,7 @@ const LetterReference: React.FC = () => {
       {Object.keys(currentIPAData).length > 0 ? (  
         <>  
           <ModelWordsSection  
-            words={currentIPAData.modelWords || []}  
+            words={currentIPAData.exampleWords || []}  
             onPlayWordAudio={(audioURL) => console.log(`Play audio: ${audioURL}`)}  
             onPlayWordVideo={(videoURL) => console.log(`Play video: ${videoURL}`)}  
           />  
