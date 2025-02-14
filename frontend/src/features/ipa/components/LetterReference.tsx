@@ -120,7 +120,8 @@ const LetterReference: React.FC = () => {
             onPlayWordVideo={(videoURL) => console.log(`Play video: ${videoURL}`)}  
           />  
           <PlayAndVideoSection  
-            videoURL={currentIPAData.vocalTractMRI || ""}  
+            diagramURL={currentIPAData.vocalTractDiagram || ""}
+            videoURL={currentIPAData.vocalTractMRI || ""} 
             onPlay={() => console.log("Play IPA audio")}  
           />  
         </>  

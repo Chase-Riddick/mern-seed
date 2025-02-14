@@ -18,7 +18,6 @@ const IPAAppContainer: React.FC = () => {
         width: "100%",
         flex: 1,
         height: "100%", 
-        // height: "100vh", 
         display: "flex",  
         flexDirection: "column",  
         maxWidth: "700px",  

@@ -1,32 +1,57 @@
-import React from "react";  
-import { Box, IconButton } from "@mui/material";  
-import { PlayCircle } from "@mui/icons-material";  
+import React, { useState } from "react";  
+    import { Box, Button, ButtonGroup } from "@mui/material";  
+    import HorizontalFlipImage from "./HorizontalFlipImage";  
 
-interface PlayAndVideoSectionProps {  
-  videoURL: string;  
-  onPlay: () => void;  
-}  
+    interface PlayAndVideoSectionProps {  
+      diagramURL: string;  
+      videoURL: string;  
+      onPlay: () => void;  
+    }  
 
-const PlayAndVideoSection: React.FC<PlayAndVideoSectionProps> = ({  
-  videoURL,  
-  onPlay,  
-}) => {  
-  return (  
-    <Box sx={{ display: "flex", alignItems: "center", padding: 2 }}>  
-      <Box sx={{ width: "80px", textAlign: "center" }}>  
-        <IconButton onClick={onPlay} sx={{ fontSize: 48 }}>  
-          <PlayCircle fontSize="inherit" />  
-        </IconButton>  
-      </Box>  
-      <Box sx={{ flex: 1 }}>  
-        <video  
-          src={videoURL}  
-          controls  
-          style={{ width: "100%", borderRadius: 8 }}  
-        />  
-      </Box>  
-    </Box>  
-  );  
-};  
+    const PlayAndVideoSection: React.FC<PlayAndVideoSectionProps> = ({  
+      diagramURL,  
+      videoURL,  
+      onPlay,  
+    }) => {  
+      const [selected, setSelected] = useState<"image" | "video">("image");  
 
-export default PlayAndVideoSection;
+      const handleSelection = (choice: "image" | "video") => {  
+        setSelected(choice);  
+      };  
+
+      return (  
+        <Box sx={{ padding: 2 }}>  
+          {/* Button Group to toggle between Image and Video */}  
+          <ButtonGroup variant="outlined" color="primary" fullWidth>  
+            <Button  
+              onClick={() => handleSelection("image")}  
+              variant={selected === "image" ? "contained" : "outlined"}  
+            >  
+              Show Image  
+            </Button>  
+            <Button  
+              onClick={() => handleSelection("video")}  
+              variant={selected === "video" ? "contained" : "outlined"}  
+            >  
+              Show Video  
+            </Button>  
+          </ButtonGroup>  
+
+          {/* Conditional rendering based on selection */}  
+          <Box sx={{ marginTop: 2 }}>  
+            {selected === "image" && (  
+              <HorizontalFlipImage imageUrl={diagramURL} />  
+            )}  
+            {selected === "video" && (  
+              <video  
+                src={videoURL}  
+                controls  
+                style={{ width: "100%", borderRadius: 8 }}  
+              />  
+            )}  
+          </Box>  
+        </Box>  
+      );  
+    };  
+
+    export default PlayAndVideoSection;  
