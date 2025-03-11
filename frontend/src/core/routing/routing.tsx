@@ -12,6 +12,9 @@ import Error from '../../features/error'
 import VowelChartContainer from '../../features/ipa/components/VowelChartContainer'
 import JsonDisplay from '../../features/ipa/components/JsonDisplay'
 import IPAAppContainer from '../../features/ipa/components/IPAAppContainer'
+import EpisodeGridPage from '../../features/phraseGame/'
+import GameModePage from '../../features/phraseGame/pages/GameModePage';  
+
 
 function Routing() {
   return (
@@ -41,6 +44,8 @@ function Routing() {
         <Route path="/auth/reset/:id/:code" element={<Reset />} />
         <Route path="/user/profile" element={<Profile />} />
         <Route path="/user/profile" element={<Profile />} />
+        <Route path="/phrasegame" element={<EpisodeGridPage />} />
+        <Route path="/game/:episodeId" element={<GameModePage />} /> 
         <Route  
           path="/ipa/vowelchart"  
           element={  

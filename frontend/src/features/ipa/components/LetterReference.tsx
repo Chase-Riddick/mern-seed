@@ -41,9 +41,6 @@ const LetterReference: React.FC = () => {
   // Effects  
   useEffect(() => {  
     console.log("Does this hit?");
-    // #1 Find the selected letter in lettersToIPATemp
-    // This is key - value pair; the key is a letter, uppercase,
-    // .. and the value is an array of associated IPA sounds
 
     let associatedIPA;
     let associatedIPAdata: { [key: string]: any } = {};
@@ -73,27 +70,6 @@ const LetterReference: React.FC = () => {
       setIPASounds([]);  
     }
 
-    // const currentLetterDataTemp = lettersData.letters.find(  
-    //   (letter: any) => letter.englishLetter === selectedLetter  
-    // );  
-
-  //#2 I need to build an object containing the IPA sounds for the selected letter
-  // This object will be used to populate the IPATabs component
-  // In the previous operation, I'll get the array of IPA sounds for the selected letter
-  // For each IPA sound, I'll find the corresponding IPA sound object in IPASoundsTemp,
-  // and will incorporate that into currentLetterDataTemp
-
-  // I'll then set IPASounds item.ipaSymbol into the IPA sounds array
-
-    // if (currentLetterDataTemp) {  
-    //   setCurrentLetterData(currentLetterDataTemp);  
-    //   const ipaSoundsTemp = currentLetterDataTemp.sounds.map((sound: any) => sound.IPA);  
-    //   setIPASounds(ipaSoundsTemp);  
-    // } else {  
-    //   setCurrentLetterData({});  
-    //   setIPASounds([]);  
-    // }  
-
   }, [selectedLetter, lettersData]);  
 
   useEffect(() => {  
@@ -115,9 +91,13 @@ const LetterReference: React.FC = () => {
       {Object.keys(currentIPAData).length > 0 ? (  
         <>  
           <ModelWordsSection  
-            words={currentIPAData.exampleWords || []}  
-            onPlayWordAudio={(audioURL) => console.log(`Play audio: ${audioURL}`)}  
-            onPlayWordVideo={(videoURL) => console.log(`Play video: ${videoURL}`)}  
+            words={currentIPAData.exampleWords || []} 
+            onPlayWordAudio={(audioURL) => {  
+              const audio = new Audio(audioURL);  
+              audio.play().catch((error) => {  
+                console.error(`Failed to play audio: ${error.message}`);  
+              });  
+            }}  
           />  
           <PlayAndVideoSection  
             diagramURL={currentIPAData.vocalTractDiagram || ""}
